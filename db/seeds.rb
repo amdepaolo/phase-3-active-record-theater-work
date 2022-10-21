@@ -1,0 +1,11 @@
+Role.create(character_name: "Seymour")
+Role.create(character_name: "Audrey")
+Role.create(character_name: "Mr. Mushnik")
+Role.create(character_name: "The Dentist")
+Role.create(character_name: "Audrey II")
+
+Audition.create(actor: "Rick Moranis", location: "Canada", phone: 5550123, role_id:1)
+Audition.create(actor: "Ellen Greene", location: "Broadway", phone: 8675309, role_id:2)
+Audition.create(actor: "Steve Martin", location: "Los Angeles", phone: 5550451, role_id:4)
+Audition.create(actor: "Tom Hanks", location: "Los Angeles", role_id: 1)
+Audition.create(actor: "Jim Jimothy", location:"Someplace", role_id: 1)
